@@ -1,0 +1,28 @@
+/* Header Component Style */
+
+.header {
+  background-color: rgb(230, 107, 217);
+  color: white;
+  min-height: 400px;
+  padding: 180px 20px;
+  padding-bottom: 140px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
+
+/*Nav Component Style */
+
+/*Message Component Style */
+
+/*Container Component Style */
+
+/*Character Click Component Style */
+
+/*Game Component Style */
+
+/*Footer Component Style */
