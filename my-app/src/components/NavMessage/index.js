@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-// import "../style.css";
+import "./style.css";
 
-class Message extends Component {
+class NavMessage extends Component {
   state = {
     message: "",
     animating: false
@@ -28,9 +28,9 @@ class Message extends Component {
       case "correct":
         return "Yay! You guessed correctly!";
       case "incorrect":
-        return "Aww! You guessed incorrectly!";
+        return "Aww! You guessed incorrectly! ";
       default:
-        return "Try it again jus click an image to begin!";
+        return "Click an image to try again!";
     }
   };
 
@@ -46,4 +46,4 @@ class Message extends Component {
   }
 }
 
-export default Message;
+export default NavMessage;

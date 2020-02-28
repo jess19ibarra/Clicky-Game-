@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/ariel.jpg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "/assets/aurora.jpg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "/assets/belle.jpg",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "/assets/cinderella.jpg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "/assets/disney.jpg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "/assets/jasmine.jpg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "/assets/rapunzel.jpg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "/assets/snowwhite.jpg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "/assets/tiana.jpg",
+    "clicked": false
+  }
+]

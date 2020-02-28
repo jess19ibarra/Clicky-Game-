@@ -1,6 +1,6 @@
 import React from "react";
-import Message from "../Message";
-// import "../style.css";
+import NavMessage from "../NavMessage";
+import "./style.css";
 
 function Nav(props) {
   return (
@@ -9,7 +9,7 @@ function Nav(props) {
         <li className="brand">
           <a href="/">Disney Princess Clicky Game!</a>
         </li>
-        <Message score={props.score} topScore={props.topScore} />
+        <NavMessage score={props.score} topScore={props.topScore} />
         <li>
           Score: {props.score} || Top Score: {props.topScore}
         </li>

@@ -1,17 +1,16 @@
 import React from "react";
+import "./style.css";
 
-// import "../style.css";
-
-function CharacterClick(props) {
+function ClickItem(props) {
   return (
     <div
       role="img"
       aria-label="click-item"
       onClick={() => props.handleClick(props.id)}
-      style={{ backgroundImage: 'url("${props.image}")' }}
+      style={{ backgroundImage: `url("${props.image}")` }}
       className={`click-item${props.shake ? " shake" : ""}`}
     />
   );
 }
 
-export default CharacterClick;
+export default ClickItem;

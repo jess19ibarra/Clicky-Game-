@@ -1,0 +1,35 @@
+.navbar .correct {
+  animation: 0.4s correct;
+}
+
+.navbar .incorrect {
+  animation: 0.4s incorrect;
+}
+
+@keyframes correct {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: #2e7d32;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+@keyframes incorrect {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: #c62828;
+  }
+
+  100% {
+    color: white;
+  }
+}
