@@ -4,7 +4,9 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="bottom">Disney Princess Clicky Game!</div>
+      <div className="bottom">
+        Jessica Ibarra - Disney Princess Clicky Game!
+      </div>
     </footer>
   );
 }

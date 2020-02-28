@@ -86,6 +86,7 @@ class Game extends Component {
             />
           ))}
         </Container>
+        <Footer />
       </div>
     );
   }
